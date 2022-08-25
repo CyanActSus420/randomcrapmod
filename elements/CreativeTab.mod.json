@@ -6,6 +6,6 @@
     "icon": {
       "value": "CUSTOM:Dynamite"
     },
-    "showSearch": false
+    "showSearch": true
   }
 }

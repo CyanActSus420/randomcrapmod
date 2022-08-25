@@ -7,29 +7,29 @@
   ],
   "key": {
     "0": {
-      "item": "random_crap_mod:tazexut"
+      "item": "random_crap_mod:deleted_mod_element"
     },
     "1": {
-      "item": "random_crap_mod:tazexut"
+      "item": "random_crap_mod:deleted_mod_element"
     },
     "2": {
-      "item": "random_crap_mod:tazexut"
+      "item": "random_crap_mod:deleted_mod_element"
     },
     "3": {
-      "item": "random_crap_mod:tazexut"
+      "item": "random_crap_mod:deleted_mod_element"
     },
     "5": {
-      "item": "random_crap_mod:tazexut"
+      "item": "random_crap_mod:deleted_mod_element"
     },
     "6": {
-      "item": "random_crap_mod:tazexut"
+      "item": "random_crap_mod:deleted_mod_element"
     },
     "8": {
-      "item": "random_crap_mod:tazexut"
+      "item": "random_crap_mod:deleted_mod_element"
     }
   },
   "result": {
-    "item": "random_crap_mod:tazexut_armor_leggings",
+    "item": "random_crap_mod:deleted_mod_element_leggings",
     "count": 1
   }
 }

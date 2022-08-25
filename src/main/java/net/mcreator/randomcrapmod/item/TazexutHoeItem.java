@@ -1,19 +1,11 @@
 
 package net.mcreator.randomcrapmod.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-import net.minecraft.item.HoeItem;
-
-import net.mcreator.randomcrapmod.RandomCrapModModElements;
+import net.minecraft.entity.ai.attributes.Attributes;
 
 @RandomCrapModModElements.ModElement.Tag
 public class TazexutHoeItem extends RandomCrapModModElements.ModElement {
+
 	@ObjectHolder("random_crap_mod:tazexut_hoe")
 	public static final Item block = null;
 
@@ -48,6 +40,8 @@ public class TazexutHoeItem extends RandomCrapModModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(TazexutItem.block));
 			}
 		}, 0, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+
 		}.setRegistryName("tazexut_hoe"));
 	}
+
 }

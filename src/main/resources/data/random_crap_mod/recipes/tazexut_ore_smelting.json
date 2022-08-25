@@ -3,7 +3,7 @@
   "experience": 1.4,
   "cookingtime": 200,
   "ingredient": {
-    "item": "random_crap_mod:tazexut_ore"
+    "item": "random_crap_mod:deleted_mod_element"
   },
   "result": {
     "item": "random_crap_mod:tazexut"
