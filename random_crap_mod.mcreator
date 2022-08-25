@@ -101,6 +101,35 @@
       "locked_code": false,
       "registry_name": "diamond_tnt_recipe",
       "path": "~/Diamond TNT"
+    },
+    {
+      "name": "DiamondTNTChainBoom",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tnt_chain_boom",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Diamond TNT"
     }
   ],
   "variable_elements": [],
