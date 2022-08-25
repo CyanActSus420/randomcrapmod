@@ -54,6 +54,53 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "creative_tab"
+    },
+    {
+      "name": "DiamondTNTRedstoneOn",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tnt_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Diamond TNT"
+    },
+    {
+      "name": "DiamondTNT",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tnt",
+      "path": "~/Diamond TNT"
+    },
+    {
+      "name": "DiamondTNTRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tnt_recipe",
+      "path": "~/Diamond TNT"
     }
   ],
   "variable_elements": [],
@@ -61,6 +108,7 @@
   "language_map": {
     "en_us": {
       "item.random_crap_mod.dynamite": "Dynamite",
+      "block.random_crap_mod.diamond_tnt": "Diamond TNT",
       "itemGroup.tabcreative_tab": "random crap mod"
     }
   },
@@ -69,6 +117,10 @@
     "children": [
       {
         "name": "Dynamite",
+        "children": []
+      },
+      {
+        "name": "Diamond TNT",
         "children": []
       }
     ]

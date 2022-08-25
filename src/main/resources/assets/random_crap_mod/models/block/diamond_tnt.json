@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "random_crap_mod:blocks/diamondtnt",
+    "up": "random_crap_mod:blocks/diamondtnt3",
+    "north": "random_crap_mod:blocks/diamondtnt2",
+    "east": "random_crap_mod:blocks/diamondtnt2",
+    "south": "random_crap_mod:blocks/diamondtnt2",
+    "west": "random_crap_mod:blocks/diamondtnt2",
+    "particle": "random_crap_mod:blocks/diamondtnt"
+  }
+}
