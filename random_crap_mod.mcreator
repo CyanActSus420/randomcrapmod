@@ -1,0 +1,85 @@
+{
+  "mod_elements": [
+    {
+      "name": "DynamitePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dynamite_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dynamite"
+    },
+    {
+      "name": "Dynamite",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dynamite",
+      "path": "~/Dynamite"
+    },
+    {
+      "name": "DynamiteCrafting",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dynamite_crafting",
+      "path": "~/Dynamite"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.random_crap_mod.dynamite": "Dynamite"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Dynamite",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "random_crap_mod",
+    "modName": "random crap mod",
+    "version": "1.0.0",
+    "author": "HP_admin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.randomcrapmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}
