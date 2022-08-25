@@ -88,7 +88,7 @@
       "name": "DiamondTNT",
       "type": "block",
       "sortid": 4,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "diamond_tnt",
       "path": "~/Diamond TNT"
@@ -135,7 +135,7 @@
       "name": "AMOGUS",
       "type": "livingentity",
       "sortid": 7,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "amogus",
       "path": "~/AMOGUS"
@@ -144,7 +144,7 @@
       "name": "TazexutPickaxe",
       "type": "tool",
       "sortid": 14,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "tazexut_pickaxe",
       "path": "~/Tazexut"
@@ -180,7 +180,7 @@
       "name": "TazexutHoe",
       "type": "tool",
       "sortid": 18,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "tazexut_hoe",
       "path": "~/Tazexut"
@@ -234,7 +234,7 @@
       "name": "TazexutBlock",
       "type": "block",
       "sortid": 10,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "tazexut_block",
       "path": "~/Tazexut"
@@ -252,7 +252,7 @@
       "name": "TazexutArmor",
       "type": "armor",
       "sortid": 24,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "tazexut_armor",
       "metadata": {
@@ -285,7 +285,7 @@
       "name": "TazexutAxe",
       "type": "tool",
       "sortid": 15,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "tazexut_axe",
       "path": "~/Tazexut"
@@ -312,7 +312,7 @@
       "name": "TazexutOre",
       "type": "block",
       "sortid": 9,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "tazexut_ore",
       "path": "~/Tazexut"
@@ -365,7 +365,7 @@
       "name": "EnderCookie",
       "type": "item",
       "sortid": 4,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "ender_cookie",
       "path": "~/Ender Cookie"
@@ -376,8 +376,9 @@
   "language_map": {
     "en_us": {
       "block.random_crap_mod.diamond_tnt": "Diamond TNT",
-      "itemGroup.tabcreative_tab": "random crap mod",
-      "item.random_crap_mod.dynamite": "Dynamite"
+      "item.random_crap_mod.dynamite": "Dynamite",
+      "item.random_crap_mod.tazexut": "Tazexut",
+      "itemGroup.tabcreative_tab": "random crap mod"
     }
   },
   "foldersRoot": {
