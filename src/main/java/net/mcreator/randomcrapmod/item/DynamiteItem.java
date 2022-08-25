@@ -6,13 +6,13 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.world.World;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.Food;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.randomcrapmod.procedures.DynamitePlayerFinishesUsingItemProcedure;
+import net.mcreator.randomcrapmod.itemgroup.CreativeTabItemGroup;
 import net.mcreator.randomcrapmod.RandomCrapModModElements;
 
 import java.util.stream.Stream;
@@ -36,7 +36,7 @@ public class DynamiteItem extends RandomCrapModModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON)
+			super(new Item.Properties().group(CreativeTabItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON)
 					.food((new Food.Builder()).hunger(4).saturation(0.3f).setAlwaysEdible().build()));
 			setRegistryName("dynamite");
 		}
