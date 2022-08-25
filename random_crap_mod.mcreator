@@ -130,12 +130,23 @@
         ]
       },
       "path": "~/Diamond TNT"
+    },
+    {
+      "name": "AMOGUS",
+      "type": "livingentity",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amogus",
+      "path": "~/AMOGUS"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.random_crap_mod.amogus_spawn_egg": "AMOGUS Spawn Egg",
+      "entity.random_crap_mod.amogus": "AMOGUS",
       "item.random_crap_mod.dynamite": "Dynamite",
       "block.random_crap_mod.diamond_tnt": "Diamond TNT",
       "itemGroup.tabcreative_tab": "random crap mod"
@@ -150,6 +161,10 @@
       },
       {
         "name": "Diamond TNT",
+        "children": []
+      },
+      {
+        "name": "AMOGUS",
         "children": []
       }
     ]
