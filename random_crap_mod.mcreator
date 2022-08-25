@@ -388,9 +388,9 @@
   "language_map": {
     "en_us": {
       "item.random_crap_mod.amogus_spawn_egg": "AMOGUS Spawn Egg",
-      "item.random_crap_mod.tazexut_armor_leggings": "Tazexut Leggings",
-      "item.random_crap_mod.tazexut_armor_helmet": "Tazexut Helmet",
       "item.random_crap_mod.tazexut_axe": "Tazexut Axe",
+      "item.random_crap_mod.tazexut_armor_helmet": "Tazexut Helmet",
+      "item.random_crap_mod.tazexut_armor_leggings": "Tazexut Leggings",
       "item.random_crap_mod.tazexut_armor_boots": "Tazexut Boots",
       "block.random_crap_mod.diamond_tnt": "Diamond TNT",
       "item.random_crap_mod.tazexut": "Tazexut",

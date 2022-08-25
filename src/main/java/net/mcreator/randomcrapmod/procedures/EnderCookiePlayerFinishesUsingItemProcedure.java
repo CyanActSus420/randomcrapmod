@@ -35,12 +35,33 @@ public class EnderCookiePlayerFinishesUsingItemProcedure {
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		Entity entity = (Entity) dependencies.get("entity");
-		{
-			Entity _ent = entity;
-			_ent.setPositionAndUpdate((x + Math.random()), (y + Math.random()), (z + Math.random()));
-			if (_ent instanceof ServerPlayerEntity) {
-				((ServerPlayerEntity) _ent).connection.setPlayerLocation((x + Math.random()), (y + Math.random()), (z + Math.random()),
-						_ent.rotationYaw, _ent.rotationPitch, Collections.emptySet());
+		entity.getPersistentData().putDouble("EnderCookieTeleportRandom", Math.random());
+		if (entity.getPersistentData().getDouble("EnderCookieTeleportRandom") >= 0.75) {
+			{
+				Entity _ent = entity;
+				_ent.setPositionAndUpdate((x + 25), (y + 2.5), (z + 25));
+				if (_ent instanceof ServerPlayerEntity) {
+					((ServerPlayerEntity) _ent).connection.setPlayerLocation((x + 25), (y + 2.5), (z + 25), _ent.rotationYaw, _ent.rotationPitch,
+							Collections.emptySet());
+				}
+			}
+		} else if (entity.getPersistentData().getDouble("EnderCookieTeleportRandom") >= 0.5) {
+			{
+				Entity _ent = entity;
+				_ent.setPositionAndUpdate((x + 10), (y + 1), (z + 10));
+				if (_ent instanceof ServerPlayerEntity) {
+					((ServerPlayerEntity) _ent).connection.setPlayerLocation((x + 10), (y + 1), (z + 10), _ent.rotationYaw, _ent.rotationPitch,
+							Collections.emptySet());
+				}
+			}
+		} else {
+			{
+				Entity _ent = entity;
+				_ent.setPositionAndUpdate((x + 0), (y + 0), (z + 0));
+				if (_ent instanceof ServerPlayerEntity) {
+					((ServerPlayerEntity) _ent).connection.setPlayerLocation((x + 0), (y + 0), (z + 0), _ent.rotationYaw, _ent.rotationPitch,
+							Collections.emptySet());
+				}
 			}
 		}
 	}
