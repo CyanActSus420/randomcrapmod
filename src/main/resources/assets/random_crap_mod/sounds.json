@@ -1,0 +1,12 @@
+{
+  "bamb.living": {
+    "category": "hostile",
+    "subtitle": "subtitles.bamb.living",
+    "sounds": [
+      {
+        "name": "random_crap_mod:break_phone",
+        "stream": false
+      }
+    ]
+  }
+}

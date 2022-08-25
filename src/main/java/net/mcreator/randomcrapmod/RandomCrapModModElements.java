@@ -46,6 +46,8 @@ public class RandomCrapModModElements {
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 
 	public RandomCrapModModElements() {
+		sounds.put(new ResourceLocation("random_crap_mod", "bamb.living"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("random_crap_mod", "bamb.living")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("random_crap_mod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
