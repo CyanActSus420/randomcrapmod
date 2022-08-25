@@ -56,6 +56,15 @@
       "registry_name": "creative_tab"
     },
     {
+      "name": "EnderCookieRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_cookie_recipe",
+      "path": "~/Ender Cookie"
+    },
+    {
       "name": "EnderCookiePlayerFinishesUsingItem",
       "type": "procedure",
       "sortid": 4,
@@ -82,13 +91,89 @@
       "path": "~/Ender Cookie"
     },
     {
-      "name": "EnderCookieRecipe",
+      "name": "DiamondTNT",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tnt",
+      "path": "~/Diamond TNT"
+    },
+    {
+      "name": "DiamondTNTRecipe",
       "type": "recipe",
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ender_cookie_recipe",
-      "path": "~/Ender Cookie"
+      "registry_name": "diamond_tnt_recipe",
+      "path": "~/Diamond TNT"
+    },
+    {
+      "name": "DiamondTNTChainBoom",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tnt_chain_boom",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Diamond TNT"
+    },
+    {
+      "name": "DiamondTNTRedstoneOn",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_tnt_redstone_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Diamond TNT"
+    },
+    {
+      "name": "AMOGUS",
+      "type": "livingentity",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amogus",
+      "path": "~/AMOGUS"
     }
   ],
   "variable_elements": [],
@@ -96,8 +181,7 @@
   "language_map": {
     "en_us": {
       "item.random_crap_mod.dynamite": "Dynamite",
-      "itemGroup.tabcreative_tab": "random crap mod",
-      "item.random_crap_mod.ender_cookie": "Ender Cookie"
+      "itemGroup.tabcreative_tab": "random crap mod"
     }
   },
   "foldersRoot": {
@@ -105,6 +189,14 @@
     "children": [
       {
         "name": "Dynamite",
+        "children": []
+      },
+      {
+        "name": "AMOGUS",
+        "children": []
+      },
+      {
+        "name": "Diamond TNT",
         "children": []
       },
       {

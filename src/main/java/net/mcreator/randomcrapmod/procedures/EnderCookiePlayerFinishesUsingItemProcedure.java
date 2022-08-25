@@ -1,12 +1,6 @@
 package net.mcreator.randomcrapmod.procedures;
 
-import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.entity.Entity;
-
-import net.mcreator.randomcrapmod.RandomCrapModMod;
-
-import java.util.Map;
-import java.util.Collections;
+import net.minecraftforge.eventbus.api.Event;
 
 public class EnderCookiePlayerFinishesUsingItemProcedure {
 
@@ -16,7 +10,9 @@ public class EnderCookiePlayerFinishesUsingItemProcedure {
 				RandomCrapModMod.LOGGER.warn("Failed to load dependency entity for procedure EnderCookiePlayerFinishesUsingItem!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
+
 		{
 			Entity _ent = entity;
 			_ent.setPositionAndUpdate(Math.random(), Math.random(), Math.random());
@@ -26,4 +22,5 @@ public class EnderCookiePlayerFinishesUsingItemProcedure {
 			}
 		}
 	}
+
 }
