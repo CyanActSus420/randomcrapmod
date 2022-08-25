@@ -5,11 +5,11 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.AxeItem;
 
+import net.mcreator.randomcrapmod.itemgroup.CreativeTabItemGroup;
 import net.mcreator.randomcrapmod.RandomCrapModModElements;
 
 @RandomCrapModModElements.ModElement.Tag
@@ -25,7 +25,7 @@ public class TazexutAxeItem extends RandomCrapModModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 660;
+				return 1660;
 			}
 
 			public float getEfficiency() {
@@ -33,7 +33,7 @@ public class TazexutAxeItem extends RandomCrapModModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 16f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,7 +47,7 @@ public class TazexutAxeItem extends RandomCrapModModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(TazexutItem.block));
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -3f, new Item.Properties().group(CreativeTabItemGroup.tab)) {
 		}.setRegistryName("tazexut_axe"));
 	}
 }

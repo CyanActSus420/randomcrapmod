@@ -8,15 +8,15 @@
     "name": "Tazexut Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:CreativeTab"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 4,
+    "harvestLevel": 5,
     "efficiency": 9.0,
     "attackSpeed": 1.0,
     "enchantability": 28,
-    "damageVsEntity": 4.0,
-    "usageCount": 660,
+    "damageVsEntity": 6.0,
+    "usageCount": 1660,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [

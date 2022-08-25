@@ -8,15 +8,15 @@
     "name": "Tazexut Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:CreativeTab"
     },
     "toolType": "Sword",
     "harvestLevel": 4,
     "efficiency": 9.0,
     "attackSpeed": 1.0,
     "enchantability": 28,
-    "damageVsEntity": 4.0,
-    "usageCount": 660,
+    "damageVsEntity": 12.0,
+    "usageCount": 1660,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [

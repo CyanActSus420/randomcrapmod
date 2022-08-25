@@ -8,7 +8,7 @@
     "name": "Tazexut Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:CreativeTab"
     },
     "toolType": "Spade",
     "harvestLevel": 4,
@@ -16,7 +16,7 @@
     "attackSpeed": 1.0,
     "enchantability": 28,
     "damageVsEntity": 4.0,
-    "usageCount": 660,
+    "usageCount": 1660,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
