@@ -27,9 +27,9 @@ public class CreativeTabItemGroup extends RandomCrapModModElements.ModElement {
 
 			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
-				return false;
+				return true;
 			}
-		};
+		}.setBackgroundImageName("item_search.png");
 	}
 
 	public static ItemGroup tab;

@@ -54,6 +54,41 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "creative_tab"
+    },
+    {
+      "name": "EnderCookiePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_cookie_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ender Cookie"
+    },
+    {
+      "name": "EnderCookie",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_cookie",
+      "path": "~/Ender Cookie"
+    },
+    {
+      "name": "EnderCookieRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_cookie_recipe",
+      "path": "~/Ender Cookie"
     }
   ],
   "variable_elements": [],
@@ -61,7 +96,8 @@
   "language_map": {
     "en_us": {
       "item.random_crap_mod.dynamite": "Dynamite",
-      "itemGroup.tabcreative_tab": "random crap mod"
+      "itemGroup.tabcreative_tab": "random crap mod",
+      "item.random_crap_mod.ender_cookie": "Ender Cookie"
     }
   },
   "foldersRoot": {
@@ -69,6 +105,10 @@
     "children": [
       {
         "name": "Dynamite",
+        "children": []
+      },
+      {
+        "name": "Ender Cookie",
         "children": []
       }
     ]
