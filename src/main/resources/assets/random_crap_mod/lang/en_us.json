@@ -1,6 +1,8 @@
 {
+  "item.random_crap_mod.amogus_spawn_egg": "AMOGUS Spawn Egg",
+  "entity.random_crap_mod.amogus": "AMOGUS",
   "block.random_crap_mod.diamond_tnt": "Diamond TNT",
   "item.random_crap_mod.dynamite": "Dynamite",
-  "item.random_crap_mod.tazexut": "Tazexut",
-  "itemGroup.tabcreative_tab": "random crap mod"
+  "itemGroup.tabcreative_tab": "random crap mod",
+  "item.random_crap_mod.ender_cookie": "Ender Cookie"
 }

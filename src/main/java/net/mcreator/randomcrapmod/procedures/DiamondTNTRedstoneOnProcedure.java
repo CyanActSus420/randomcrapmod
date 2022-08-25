@@ -1,6 +1,18 @@
 package net.mcreator.randomcrapmod.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.TickEvent;
+import net.minecraftforge.common.MinecraftForge;
+
+import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
+import net.minecraft.world.Explosion;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.block.Blocks;
+
+import net.mcreator.randomcrapmod.RandomCrapModMod;
+
+import java.util.Map;
 
 public class DiamondTNTRedstoneOnProcedure {
 
@@ -25,14 +37,11 @@ public class DiamondTNTRedstoneOnProcedure {
 				RandomCrapModMod.LOGGER.warn("Failed to load dependency z for procedure DiamondTNTRedstoneOn!");
 			return;
 		}
-
 		IWorld world = (IWorld) dependencies.get("world");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-
 		new Object() {
-
 			private int ticks = 0;
 			private float waitTicks;
 			private IWorld world;
@@ -59,9 +68,6 @@ public class DiamondTNTRedstoneOnProcedure {
 				}
 				MinecraftForge.EVENT_BUS.unregister(this);
 			}
-
 		}.start(world, (int) 100);
-
 	}
-
 }

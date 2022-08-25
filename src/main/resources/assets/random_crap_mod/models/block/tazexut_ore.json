@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "random_crap_mod:blocks/tazexutore",
-    "particle": "random_crap_mod:blocks/tazexutore"
-  }
-}

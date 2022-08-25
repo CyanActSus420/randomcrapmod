@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "random_crap_mod:items/tazexut_axe"
-  }
-}
