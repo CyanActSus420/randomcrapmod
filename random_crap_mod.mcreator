@@ -139,6 +139,201 @@
       "locked_code": false,
       "registry_name": "amogus",
       "path": "~/AMOGUS"
+    },
+    {
+      "name": "Tazexut",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tazexut",
+      "path": "~/Tazexut"
+    },
+    {
+      "name": "TazexutOre",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tazexut_ore",
+      "path": "~/Tazexut"
+    },
+    {
+      "name": "TazexutBlock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tazexut_block",
+      "path": "~/Tazexut"
+    },
+    {
+      "name": "TazexutOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tazexut_ore_block_recipe",
+      "path": "~/Tazexut"
+    },
+    {
+      "name": "TazexutBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tazexut_block_ore_recipe",
+      "path": "~/Tazexut"
+    },
+    {
+      "name": "TazexutOreSmelting",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tazexut_ore_smelting",
+      "path": "~/Tazexut"
+    },
+    {
+      "name": "TazexutPickaxe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tazexut_pickaxe",
+      "path": "~/Tazexut"
+    },
+    {
+      "name": "TazexutAxe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tazexut_axe",
+      "path": "~/Tazexut"
+    },
+    {
+      "name": "TazexutSword",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tazexut_sword",
+      "path": "~/Tazexut"
+    },
+    {
+      "name": "TazexutShovel",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tazexut_shovel",
+      "path": "~/Tazexut"
+    },
+    {
+      "name": "TazexutHoe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tazexut_hoe",
+      "path": "~/Tazexut"
+    },
+    {
+      "name": "TazexutPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tazexut_pickaxe_recipe",
+      "path": "~/Tazexut"
+    },
+    {
+      "name": "TazexutAxeRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tazexut_axe_recipe",
+      "path": "~/Tazexut"
+    },
+    {
+      "name": "TazexutSwordRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tazexut_sword_recipe",
+      "path": "~/Tazexut"
+    },
+    {
+      "name": "TazexutShovelRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tazexut_shovel_recipe",
+      "path": "~/Tazexut"
+    },
+    {
+      "name": "TazexutHoeRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tazexut_hoe_recipe",
+      "path": "~/Tazexut"
+    },
+    {
+      "name": "TazexutArmor",
+      "type": "armor",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tazexut_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Tazexut"
+    },
+    {
+      "name": "TazexutArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tazexut_armor_helmet_recipe",
+      "path": "~/Tazexut"
+    },
+    {
+      "name": "TazexutArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tazexut_armor_body_recipe",
+      "path": "~/Tazexut"
+    },
+    {
+      "name": "TazexutArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tazexut_armor_leggings_recipe",
+      "path": "~/Tazexut"
+    },
+    {
+      "name": "TazexutArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tazexut_armor_boots_recipe",
+      "path": "~/Tazexut"
     }
   ],
   "variable_elements": [],
@@ -146,10 +341,22 @@
   "language_map": {
     "en_us": {
       "item.random_crap_mod.amogus_spawn_egg": "AMOGUS Spawn Egg",
+      "item.random_crap_mod.tazexut_axe": "Tazexut Axe",
+      "item.random_crap_mod.tazexut_armor_helmet": "Tazexut Helmet",
+      "item.random_crap_mod.tazexut_armor_leggings": "Tazexut Leggings",
+      "item.random_crap_mod.tazexut_armor_boots": "Tazexut Boots",
+      "block.random_crap_mod.diamond_tnt": "Diamond TNT",
+      "item.random_crap_mod.tazexut": "Tazexut",
+      "itemGroup.tabcreative_tab": "random crap mod",
+      "block.random_crap_mod.tazexut_block": "Block of Tazexut",
+      "item.random_crap_mod.tazexut_armor_chestplate": "Tazexut Chestplate",
+      "item.random_crap_mod.tazexut_pickaxe": "Tazexut Pickaxe",
+      "item.random_crap_mod.tazexut_hoe": "Tazexut Hoe",
+      "block.random_crap_mod.tazexut_ore": "Tazexut Ore",
       "entity.random_crap_mod.amogus": "AMOGUS",
       "item.random_crap_mod.dynamite": "Dynamite",
-      "block.random_crap_mod.diamond_tnt": "Diamond TNT",
-      "itemGroup.tabcreative_tab": "random crap mod"
+      "item.random_crap_mod.tazexut_sword": "Tazexut Sword",
+      "item.random_crap_mod.tazexut_shovel": "Tazexut Shovel"
     }
   },
   "foldersRoot": {
@@ -165,6 +372,10 @@
       },
       {
         "name": "AMOGUS",
+        "children": []
+      },
+      {
+        "name": "Tazexut",
         "children": []
       }
     ]
