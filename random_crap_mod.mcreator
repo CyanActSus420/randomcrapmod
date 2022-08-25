@@ -46,13 +46,22 @@
       "locked_code": false,
       "registry_name": "dynamite_crafting",
       "path": "~/Dynamite"
+    },
+    {
+      "name": "CreativeTab",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creative_tab"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.random_crap_mod.dynamite": "Dynamite"
+      "item.random_crap_mod.dynamite": "Dynamite",
+      "itemGroup.tabcreative_tab": "random crap mod"
     }
   },
   "foldersRoot": {
