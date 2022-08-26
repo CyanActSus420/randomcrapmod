@@ -441,6 +441,41 @@
       "locked_code": false,
       "registry_name": "corn_block",
       "path": "~/bambi fnf"
+    },
+    {
+      "name": "DeathContractOnButtonClicked",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_contract_on_button_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Death Contract"
+    },
+    {
+      "name": "DeathContractGUI",
+      "type": "gui",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_contract_gui",
+      "path": "~/Death Contract"
+    },
+    {
+      "name": "DeathContract",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_contract",
+      "path": "~/Death Contract"
     }
   ],
   "variable_elements": [],
@@ -456,28 +491,29 @@
   ],
   "language_map": {
     "en_us": {
-      "item.random_crap_mod.amogus_spawn_egg": "AMOGUS Spawn Egg",
-      "item.random_crap_mod.bambi_fnf_spawn_egg": "bambi fnf Spawn Egg",
-      "item.random_crap_mod.tazexut_armor_leggings": "Tazexut Leggings",
       "item.random_crap_mod.tazexut_armor_helmet": "Tazexut Helmet",
       "item.random_crap_mod.tazexut_axe": "Tazexut Axe",
       "item.random_crap_mod.tazexut_armor_boots": "Tazexut Boots",
-      "block.random_crap_mod.diamond_tnt": "Diamond TNT",
       "item.random_crap_mod.tazexut": "Tazexut",
-      "itemGroup.tabcreative_tab": "random crap mod",
-      "entity.random_crap_mod.bambi_fnf": "bambi fnf",
       "subtitles.bamb.living": "bambi_broke_his_phone.ogg",
+      "item.random_crap_mod.death_contract": "Death Contract",
       "block.random_crap_mod.tazexut_block": "Block of Tazexut",
       "item.random_crap_mod.tazexut_armor_chestplate": "Tazexut Chestplate",
       "item.random_crap_mod.tazexut_pickaxe": "Tazexut Pickaxe",
+      "entity.random_crap_mod.amogus": "AMOGUS",
+      "item.random_crap_mod.tazexut_shovel": "Tazexut Shovel",
+      "item.random_crap_mod.tazexut_sword": "Tazexut Sword",
+      "item.random_crap_mod.amogus_spawn_egg": "AMOGUS Spawn Egg",
+      "item.random_crap_mod.bambi_fnf_spawn_egg": "bambi fnf Spawn Egg",
+      "item.random_crap_mod.tazexut_armor_leggings": "Tazexut Leggings",
+      "block.random_crap_mod.diamond_tnt": "Diamond TNT",
+      "entity.random_crap_mod.bambi_fnf": "bambi fnf",
+      "itemGroup.tabcreative_tab": "random crap mod",
       "item.random_crap_mod.tazexut_hoe": "Tazexut Hoe",
       "block.random_crap_mod.tazexut_ore": "Tazexut Ore",
-      "entity.random_crap_mod.amogus": "AMOGUS",
       "item.random_crap_mod.dynamite": "Dynamite",
       "block.random_crap_mod.corn_block": "Corn Block",
       "item.random_crap_mod.ender_cookie": "Ender Cookie",
-      "item.random_crap_mod.tazexut_sword": "Tazexut Sword",
-      "item.random_crap_mod.tazexut_shovel": "Tazexut Shovel",
       "item.random_crap_mod.corn": "corn"
     }
   },
@@ -506,6 +542,10 @@
       },
       {
         "name": "bambi fnf",
+        "children": []
+      },
+      {
+        "name": "Death Contract",
         "children": []
       }
     ]

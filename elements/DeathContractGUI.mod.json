@@ -1,0 +1,75 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Sign Contract",
+          "onClick": {
+            "name": "DeathContractOnButtonClicked"
+          },
+          "width": 93,
+          "height": 20,
+          "name": "Sign Contract",
+          "x": 166,
+          "y": 150
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "This contract will",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "This contract will",
+          "x": 165,
+          "y": 51
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "kill you when signed.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "kill you when signed.",
+          "x": 158,
+          "y": 66
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Proceed anyway?",
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "name": "Proceed anyway?",
+          "x": 174,
+          "y": 110
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
